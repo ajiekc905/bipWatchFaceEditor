@@ -1,0 +1,60 @@
+$display-width = 176px
+$bg = hsla(0, 0%, 96%, 1)
+$bg2 = hsla(200, 100%, 20%, 1)
+$bg_alice = hsl(336, 50%, 25%)
+
+html{
+background-color: hsl(0,0,64)
+color: hsl(0,0,99)
+}
+
+// img {
+//     border-style: solid;
+//     border-width: 1px;
+// }
+
+img#000 {
+  position: absolute;
+  top: 8px;
+}
+
+#myCanvas {
+  border: 1px solid #000000;
+  display: block;
+  width: $display-width;
+  height: $display-width;
+  }
+
+.preview, .info, .file{
+  display: table-cell;
+  }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+  // background-color: $bg;
+  display: table;
+  }
+
+.preview {
+  width: $display-width;
+  // background-color: $bg2;
+  }
+
+.info {
+  width: 80%;
+  // background-color: $bg_alice;
+  vertical-align: top;
+  }
+
+.shiftTab{
+    border-top-style: dotted;
+    border-width: 1px;
+}
+
+#tempCanvas{
+    // background-color: hsla(240, 100%, 50%, 0.05);
+    float: right;
+    margin: 4em;
+    border: 1px solid #000;
+}
