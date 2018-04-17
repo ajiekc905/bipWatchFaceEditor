@@ -1,5 +1,5 @@
 // import { Logging as log } from './Logging';
-import { Reader } from './DataHelper';
+import { Reader } from './DataReader';
 import RawImage from './Images';
 // import { YAML } from 'yamljs';
 import * as YAML from 'yamljs';
