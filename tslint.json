@@ -17,7 +17,9 @@
       "no-console": false,
       "no-consecutive-blank-lines": false,
       "variable-name": [true, "ban-keywords"],
-      "no-inner-declarations": [true, "function"]
+      "no-inner-declarations": [true, "function"],
+      "quotemark": [true, "single"],
+      "func-style": false
     },
     "rulesDirectory": []
 }
